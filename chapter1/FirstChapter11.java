@@ -10,7 +10,7 @@ public class FirstChapter11 {
 		int population = born + immigrant - death;
 
 		for (int i = 1; i <= 5; i++) {
-			current_population = current_population + population;  // Calculate total population
+			current_population = current_population + population; 
 			System.out.println(i + " year population is : " + current_population);
 		}
 	}
